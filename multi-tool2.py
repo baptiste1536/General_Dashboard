@@ -175,6 +175,7 @@ def add_note():
 add_note()
 
 #TACHES-A-FAURE------
+todo_card=card_frame(3)
 title_label(todo_card, "Tâches", color=GREEN)
 
 entry_row = customtkinter.CTkFrame(todo_card, fg_color="transparent")
